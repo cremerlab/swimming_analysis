@@ -1,8 +1,10 @@
 # Swimming analysis in agar
 
-This collection of Python and Matlab code for single-cell detection, cell-tracking and the extraction of movement statistics (diffusion and drift). This code was used to analyze the movement characteristics of cells in expanding poputlations (within soft-agar), as published in our manuscript "Chemotaxis as a navigation strategy to thrive in nutrient replete environments”.
+This collection of Python and Matlab code for single-cell detection, cell-tracking and the extraction of movement statistics (diffusion and drift). This code was used to analyze the movement characteristics of cells in expanding poputlations (within soft-agar), as published in our manuscript:
 
-Ying Tang and Jonas Cremer, together with Tomoya Honda, Jerome Wong-Ng, Massimo Vergassola, Terence Hwa, 2019.
+- J.Cremer, T.Honda, Y.Tang, J.Wong-Ng, M.Vergassola, T.Hwa. Chemotaxis as a navigation strategy to thrive in nutrient-replete environments
+
+Ying Tang and Jonas Cremer together with the other coauthors.
 
 ## Required packages
 

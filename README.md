@@ -2,12 +2,12 @@
 Analysis of movies to extract bacterial swimming behavior and statistics
 
 We used this code to analyze the swimming behavior of cells within liquid. Method details and the biological context are provided in our  manuscript:
-- J.Cremer, T.Honda, Y.Tang, J.Wong-Ng, M.Vergassola, T.Hwa. Chemotaxis as a navigation strategy to thrive in nutrient-replete environments
+- J.Cremer, T.Honda, Y.Tang, J.Wong-Ng, M.Vergassola, T.Hwa. Chemotaxis as a navigation strategy to thrive in nutrient-replete environments.
 
 August 2019, Jonas Cremer and all coauthors.
 
 ## Required packages
-This code runs with Python 2.7. Required modules include NumPy and SciPy.
+This code runs with Python 2.7. Required modules include the modules NumPy and SciPy, OpenCV, and pandas.
 
 For trajectory detection the tracking algorithm and python module trackpy was used:
 - trackpy 0.30 .  See https://github.com/soft-matter/trackpy

@@ -79,11 +79,10 @@ The main output includes:
 1. Figures:
 
 - The distribution of mean displacement and mean square displacement 
-of single-cells, in both x and y directions.
+of single-cells, in both x and y directions (alignment of sample on sample mount such that swimming along x).
 
 - The average of mean displacement and mean square displacement versus
-time, for both x and y directions. The linear fitting to the latter gives the slope 
-corresponding to the diffusion coefficients;
+time, for both x and y directions. A linear fit of the mean square displacement gives the corresponding diffusion coefficient.
 
 - The auto-correlation function of position variables, in both x and y directions. 
 

@@ -14,11 +14,13 @@ For cell tracking the u-track package from the Danuser Lab was used:
 
 - utrack 2.0 - Copyright (C) 2007 Danuser Lab. See https://github.com/DanuserLab/u-track.
 
+To setup code, have u-track package in a subfolder. Copy all script files provided in the folder "matlabfolder" into main folder with scripts.
+
 In addition, the Python code requires the modules NumPy an SciPy. 
 
 The code was developed and tested in Python2.7 and MATLAB R2016b and MATLAB R2018b.
 
-## Running analysis
+## Running swimming analysis
 
 Analysis works in 3 steps:
 1. single-cell detection, 
@@ -32,7 +34,6 @@ For the analysis of swimming behavior in liquid culture we used the python modul
 See the alogrithms in “gp_swimming.py”.
 
 To run this code, execute python file readindata_PIP.py. Before running, settings in the readindata_PIP.py and DriftDiffusion.m have to be adjusted.
-
 
 ## Adjust readindata_PIP.py:
 

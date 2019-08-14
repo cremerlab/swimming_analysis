@@ -9,7 +9,8 @@ Ying Tang and Jonas Cremer, together with Tomoya Honda, Jerome Wong-Ng, Massimo 
 The code combines Python and MATLAB scripts.
 
 For cell tracking the u-track package from the Danuser Lab was used:
--utrack 2.0 - Copyright (C) 2007 Danuser Lab. See https://github.com/DanuserLab/u-track.
+
+- utrack 2.0 - Copyright (C) 2007 Danuser Lab. See https://github.com/DanuserLab/u-track.
 
 In addition, the Python code requires the modules NumPy an SciPy. 
 
@@ -53,19 +54,19 @@ for calculating the diffusion and drift coefficients.
 
 ## Adjust DriftDiffusion.m:
 
-a. PlotDetail: if 1, it will plot the distribution of single-cell statistics of mean 
+- PlotDetail: if 1, it will plot the distribution of single-cell statistics of mean 
 displacement in both x and y direction.
 
-b. PlotDriftDiffusionFit: if 1, it will plot the linear fit between mean square 
+- PlotDriftDiffusionFit: if 1, it will plot the linear fit between mean square 
 displacement and mean displacement versus time.
 
-c. ThrowNonMotile: if 1, it will delete non-motile cells. 
+- ThrowNonMotile: if 1, it will delete non-motile cells. 
 
-d. PhysicalLength: length size of images in the unit of mum.
+- PhysicalLength: length size of images in the unit of mum.
 
-e. pixel: pixel number of images.
+- pixel: pixel number of images.
 
-f. tLength: time step between images in the unit of seconds.
+- tLength: time step between images in the unit of seconds.
 
 
 ## Output
@@ -74,21 +75,21 @@ The main output includes:
 
 1. Figures:
 
-a. The distribution of mean displacement and mean square displacement 
+- The distribution of mean displacement and mean square displacement 
 of single-cells, in both x and y directions.
 
-b. The average of mean displacement and mean square displacement versus
+- The average of mean displacement and mean square displacement versus
 time, for both x and y directions. The linear fitting to the latter gives the slope 
 corresponding to the diffusion coefficients;
 
-c. The auto-correlation function of position variables, in both x and y directions. 
+- The auto-correlation function of position variables, in both x and y directions. 
 
-d. The distribution of angular change. 
+- The distribution of angular change. 
 
 2. Mat file with the statistics:
 
-a. The mean displacement and mean square displacement versus time.
+- The mean displacement and mean square displacement versus time.
 
-b. The diffusion coefficient as the slope of linear fitting on mean square 
+- The diffusion coefficient as the slope of linear fitting on mean square 
 displacement versus time.
 
